@@ -1,6 +1,6 @@
 env: flex
 runtime: nodejs18
 env_variables:
-  PORT: "4000"
+  APP_PORT: "4000"
   ACCOUNT_NUMBER: "6565656"
   IS_PAYMENT: "true"
