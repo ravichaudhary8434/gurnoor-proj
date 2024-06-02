@@ -23,7 +23,7 @@ app.use((error, req, res, next) => {
   res.status(500).send(error);
 });
 
-const port = process.env.PORT;
+const port = process.env.APP_PORT;
 
 app.listen(port, () => {
   console.log(`Server Listening at http://localhost:${port}`);
